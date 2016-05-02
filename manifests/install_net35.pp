@@ -1,4 +1,4 @@
-class precheckinstaller::install_oracle {
+class precheckinstaller::install_net35 {
   exec { 'install .net35':
     command   => '
 PUSHD c:\\temp\\bin\\sxs

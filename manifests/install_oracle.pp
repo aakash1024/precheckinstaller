@@ -1,4 +1,4 @@
-class precheck::oadc_install {
+class precheckinstaller::install_oracle {
   require precheck::iis_install
   require precheck::net_45
   require precheck::net_35
