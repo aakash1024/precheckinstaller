@@ -1,5 +1,5 @@
 class precheckinstaller::install_iis {
-  windowsfeature { 'IIS':
+  windowsfeature { 'IIS install':
     feature_name => [
       'Web-Server',
       'Web-Asp-Net45',

@@ -1,3 +1,5 @@
 class precheckinstaller::install_msmq {
-  windowsfeature { 'MSMQ': feature_name => ['MSMQ-Server'] }
+  require precheckinstaller::install_webauth
+
+  windowsfeature { 'MSMQ install': feature_name => ['MSMQ-Server'] }
 }
